@@ -1,0 +1,12 @@
+<body>
+
+</body>
+<template name="layout">
+
+<ul>
+<li><a href="{{pathFor 'home'}}">HOME</a></li>
+<li><a href="{{pathFor 'speakers'}}">SPEAKERS</a></li>
+</ul>
+<hr>
+{{>yield}}
+</template>
